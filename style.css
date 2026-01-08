@@ -92,10 +92,48 @@
   color: #30b868;
 }
 
-
 .banner .banner-content h1 {
   font-size: 48px;
   color: white;
   margin-bottom: 24px;
-  font-weight: 700;
+  font-style: bold;
+}
+/* note section */
+.note-section {
+  padding: 80px 120px;
+  text-align: center;
+}
+.note-section h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+.note-section p {
+  font-size: 16px;
+  color: #555555;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+/* note card     */
+.cards {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  gap: 16px;
+}
+.note-card {
+  width: 322px;
+
+  padding: 15px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+.note-card img {
+  width: 32px;
+  height: 32px;
+  padding: 5px;
+  border-radius: 50%;
+  background-color: #fa5c5c;
+  margin-bottom: 16px;
 }
