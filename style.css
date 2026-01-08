@@ -146,14 +146,12 @@
 }
 .second-brain-section img {
   max-width: 600px;
-    height: auto;
+  height: auto;
 }
 
-.second-brain-content{
-    padding: 150px 0px;
+.second-brain-content {
+  padding: 150px 0px;
 }
-
-
 
 .second-brain-section .second-brain-content #p-color {
   font-size: 16px;
@@ -161,13 +159,13 @@
   margin-bottom: 10px;
 }
 .second-brain-section .second-brain-content #peragraph {
-   color: #555555;
- font-weight: 400;
+  color: #555555;
+  font-weight: 400;
 }
 .second-brain-section .second-brain-content h1 {
   font-size: 48px;
   font-weight: bold;
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .check-item {
@@ -177,10 +175,29 @@
   margin-top: 10px;
 }
 .check-item p {
-    color: black;
+  color: black;
   font-size: 16px;
 }
 .check-item img {
   width: 20px;
   height: 20px;
+}
+/* early access section */
+.early-access {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 80px 120px;
+}
+.early-access h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+.early-access p {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 20px;
 }
